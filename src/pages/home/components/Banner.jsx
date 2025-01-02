@@ -18,7 +18,7 @@ const Banner = () => {
                 navigation
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[Thumbs, Navigation]}
-                onSlideChange={(swiper) => setActiveThumbIndex(swiper.activeIndex)}
+                onSlideChange={(swiper) => setActiveThumbIndex(swiper.realIndex)}
                 className="main-swiper h-[35vh] sm:h-[45vh] lg:h-[85vh]"
             >
                 <SwiperSlide>
@@ -63,28 +63,28 @@ const Banner = () => {
                     <img
                         src="/assets/home/01.jpg"
                         alt="Thumbnail 1"
-                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 0 ? 'border-4 border-blue-500' : ''}`}
+                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 0 ? 'border-4 p-1 border-[#151515]' : ''}`}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
                         src="/assets/home/02.jpg"
                         alt="Thumbnail 2"
-                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 1 ? 'border-4 border-blue-500' : ''}`}
+                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 1 ? 'border-4 p-1 border-[#151515]' : ''}`}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
                         src="/assets/home/03.png"
                         alt="Thumbnail 3"
-                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 2 ? 'border-4 border-blue-500' : ''}`}
+                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 2 ? 'border-4 p-1 border-[#151515]' : ''}`}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <img
                         src="/assets/home/04.jpg"
                         alt="Thumbnail 4"
-                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 3 ? 'border-4 border-blue-500' : ''}`}
+                        className={`h-20 w-full object-cover cursor-pointer ${activeThumbIndex === 3 ? 'border-4 p-1 border-[#151515]' : ''}`}
                     />
                 </SwiperSlide>
             </Swiper>

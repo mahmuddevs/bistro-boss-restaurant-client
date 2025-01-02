@@ -34,7 +34,7 @@ const Header = () => {
                     <p className="font-bold md:text-2xl tracking-wider">RESTAURANT</p>
                 </Link>
                 <nav>
-                    <motion.ul className={`uppercase flex flex-col lg:flex-row lg:items-center gap-6 font-extrabols fixed lg:static top-0  w-56 h-screen lg:h-auto lg:w-auto p-8 bg-green-500 lg:bg-transparent`}
+                    <motion.ul className={`uppercase flex flex-col lg:flex-row lg:items-center gap-6 font-extrabols fixed lg:static top-0  w-56 h-screen lg:h-auto lg:w-auto p-8 bg-[#151515]/90 lg:bg-transparent`}
                         initial={{ right: '-14rem' }}
                         animate={{ right: navOpen ? '0' : '-14rem' }}
                         transition={{ type: "spring", stiffness: 100, damping: 20 }}
