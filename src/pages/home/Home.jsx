@@ -3,6 +3,7 @@ import Banner from "./components/Banner"
 import FromMenu from "./components/FromMenu"
 import HomeAbout from "./components/HomeAbout"
 import OrderOnline from "./components/OrderOnline"
+import Recommend from "./components/Recommend"
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <OrderOnline />
             <HomeAbout />
             <FromMenu />
+            <Recommend />
         </>
     )
 }
