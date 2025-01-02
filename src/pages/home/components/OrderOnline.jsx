@@ -9,7 +9,7 @@ import { FreeMode, Pagination } from 'swiper/modules';
 
 const OrderOnline = () => {
     return (
-        <section className="w-11/12 md:container mx-auto my-14 lg:my-24">
+        <section className="w-11/12 md:container xl:w-8/12 mx-auto my-14 lg:my-24">
             <SectionHeading subHeading='From 11:00am to 10:00pm' heading='ORDER ONLINE' />
             <Swiper
                 slidesPerView={4}

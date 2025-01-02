@@ -1,5 +1,6 @@
 import Title from "../../components/Title"
 import Banner from "./components/Banner"
+import Featured from "./components/Featured"
 import FromMenu from "./components/FromMenu"
 import HomeAbout from "./components/HomeAbout"
 import OrderOnline from "./components/OrderOnline"
@@ -14,6 +15,7 @@ const Home = () => {
             <HomeAbout />
             <FromMenu />
             <Recommend />
+            <Featured />
         </>
     )
 }
