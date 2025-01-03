@@ -11,3 +11,12 @@ body {
 .font-cinzel {
   font-family: "Cinzel", serif !important;
 }
+
+.react-tabs__tab--selected {
+  border-color: transparent !important;
+  font-weight: 700 !important;
+  color: #BB8506 !important;
+  text-decoration: underline;
+  text-decoration-thickness: 3px !important;
+  border-radius: 0 !important;
+}

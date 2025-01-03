@@ -1,4 +1,4 @@
-const RecommendedCard = () => {
+const ProductCard = () => {
     return (
         <div className="card p-0 rounded-none drop-shadow-sm">
             <figure className="rounded-none">
@@ -18,4 +18,4 @@ const RecommendedCard = () => {
     )
 }
 
-export default RecommendedCard
+export default ProductCard
