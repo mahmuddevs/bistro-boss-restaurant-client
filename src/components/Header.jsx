@@ -9,20 +9,20 @@ const Header = () => {
     const navItems = (
         <>
             <li className="flex justify-between">
-                <NavLink>Home</NavLink>
+                <NavLink to='/'>Home</NavLink>
                 <IoMdClose onClick={() => { setNavOpen(false) }} className="block lg:hidden cursor-pointer" />
             </li>
             <li>
-                <NavLink>Contact Us</NavLink>
+                <NavLink to='/contact-us'>Contact Us</NavLink>
             </li>
             <li>
-                <NavLink>Dashboard</NavLink>
+                <NavLink to='/dashboard'>Dashboard</NavLink>
             </li>
             <li>
-                <NavLink>Our Menu</NavLink>
+                <NavLink to='/our-menu'>Our Menu</NavLink>
             </li>
             <li>
-                <NavLink>Our Shop</NavLink>
+                <NavLink to='/our-shop'>Our Shop</NavLink>
             </li>
         </>
     )
@@ -31,7 +31,7 @@ const Header = () => {
             <div className="w-11/12 md:container mx-auto flex justify-between items-center py-2 text-white">
                 <Link to='/' className="font-cinzel">
                     <h4 className="font-black md:text-2xl">BISTRO BOSS</h4>
-                    <p className="font-bold md:text-2xl tracking-wider">RESTAURANT</p>
+                    <p className="font-bold md:text-2xl tracking-wider hidden md:block">RESTAURANT</p>
                 </Link>
                 <nav>
                     <motion.ul className={`uppercase flex flex-col lg:flex-row lg:items-center gap-6 font-extrabols fixed lg:static top-0  w-56 h-screen lg:h-auto lg:w-auto p-8 bg-[#151515]/90 lg:bg-transparent`}

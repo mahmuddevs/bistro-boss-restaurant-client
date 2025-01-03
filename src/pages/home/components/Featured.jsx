@@ -3,7 +3,7 @@ import SectionHeading from "../../../components/SectionHeading"
 const Featured = () => {
     return (
         <div style={{ backgroundColor: 'rgba(21, 21, 21, 0.7)', backgroundImage: `url('/assets/home/featured.jpg')`, backgroundBlendMode: 'overlay' }}
-            className="bg-cover bg-center bg-no-repeat my-16 md:my-32 py-16 md:py-32"
+            className="bg-cover bg-no-repeat my-16 md:my-32 py-16 md:py-32"
         >
             <section className="w-11/12 md:container xl:w-8/12 mx-auto">
                 <SectionHeading subHeading='Check it Out' heading='FEATURED DISH FROM OUR MENU' textWhite={true} />
