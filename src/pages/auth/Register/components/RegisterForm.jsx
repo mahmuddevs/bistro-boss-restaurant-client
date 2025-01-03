@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const RegisterForm = () => {
     return (
         <div className="w-11/12 sm:w-7/12">
-            <h3 className="text-[#151515] font-bold text-4xl text-center mb-6">Register</h3>
+            <h3 className="text-[#151515] font-bold text-2xl md:text-4xl text-center mb-6">Register</h3>
             <form className="space-y-4">
                 <div className="form-control">
                     <label className="label">
